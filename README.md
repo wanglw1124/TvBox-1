@@ -1,16 +1,7 @@
 
-  # Box 
+  # TvBox 源 
 
-<style type="text/css">
-
-  table tr>td:first-child{   
-    max-width: 400px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;}
-</style>
-
-更新时间: 2022-07-23 23:12:32
+更新时间: 2022-07-23 23:15:07
 
 ## 优质线路
 
