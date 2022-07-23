@@ -189,16 +189,7 @@ const run = async () => {
     });
 
   let text = `
-  # Box 
-
-<style type="text/css">
-
-  table tr>td:first-child{   
-    max-width: 400px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;}
-</style>
+  # TvBox 源 
 
 更新时间: ${dayjs().tz("PRC").format("YYYY-MM-DD HH:mm:ss")}
 
