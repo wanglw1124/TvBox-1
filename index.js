@@ -2,9 +2,14 @@ const fs = require("fs-extra");
 const path = require("path");
 const download = require("download");
 const dayjs = require("dayjs");
+const timezone = require("dayjs/plugin/timezone");
+const utc = require("dayjs/plugin/utc");
 const puppeteer = require("puppeteer");
 
 const { Request, Compile } = require("@package-tool/html-parsing");
+
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 const oneday = 1000 * 60 * 60 * 24;
 
@@ -186,7 +191,16 @@ const run = async () => {
   let text = `
   # Box 
 
-更新时间: ${dayjs().format("YYYY-MM-DD HH:mm:ss")}
+<style type="text/css">
+
+  table tr>td:first-child{   
+    max-width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+</style>
+
+更新时间: ${dayjs().tz("PRC").format("YYYY-MM-DD HH:mm:ss")}
 
 ## 优质线路
 
@@ -195,9 +209,11 @@ const run = async () => {
 ${list
   .filter((item) => item.site.indexOf("VIP") == 0)
   .map((item) => {
-    return `| 【${item.site}】 ${item.title} | ${dayjs(item.time).format(
-      "YYYY-MM-DD HH:mm:ss"
-    )} |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/${
+    return `| 【${item.site}】 ${item.title} | ${dayjs(item.time)
+      .tz("PRC")
+      .format(
+        "YYYY-MM-DD HH:mm:ss"
+      )} |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/${
       item.filePath
     }) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/${
       item.filePath
@@ -211,9 +227,11 @@ ${list
 |  ----  | ----  |----  |
 ${list
   .map((item) => {
-    return `| 【${item.site}】 ${item.title} | ${dayjs(item.time).format(
-      "YYYY-MM-DD HH:mm:ss"
-    )} |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/${
+    return `| 【${item.site}】 ${item.title} | ${dayjs(item.time)
+      .tz("PRC")
+      .format(
+        "YYYY-MM-DD HH:mm:ss"
+      )} |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/${
       item.filePath
     }) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/${
       item.filePath
