@@ -1,12 +1,13 @@
 
   # TvBox 源 
 
-更新时间: 2022-07-24 23:46:41
+更新时间: 2022-07-25 02:51:17
 
 ## 优质线路
 
 |   名称  | 更新时间  |地址  |
 |  ----  | ----  |----  |
+| 【VIP_2】 top9.json | 2022-07-25 02:30:51 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/top9.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/top9.json) |
 | 【VIP_2】 ntest.json | 2022-07-24 00:10:59 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/ntest.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/ntest.json) |
 | 【VIP_2】 ntest.json | 2022-07-23 10:00:44 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/ntest.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/ntest.json) |
 | 【VIP_2】 ntest.json | 2022-07-23 05:09:41 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/ntest.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/ntest.json) |
@@ -40,6 +41,7 @@
 
 |   名称  | 更新时间  |地址  |
 |  ----  | ----  |----  |
+| 【VIP_2】 top9.json | 2022-07-25 02:30:51 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/top9.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/top9.json) |
 | 【VIP_2】 ntest.json | 2022-07-24 00:10:59 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/ntest.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/ntest.json) |
 | 【franksun1211】 0630.json | 2022-07-23 18:16:35 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/franksun1211/0630.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/franksun1211/0630.json) |
 | 【maoTv2】 maotv3.txt | 2022-07-23 16:57:45 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoTv2/maotv3.txt) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoTv2/maotv3.txt) |
