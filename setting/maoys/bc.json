@@ -1,13 +1,14 @@
 
 {
-"spider":"https://hzhst123.github.io/maoys/top66.jar",
+"spider":"https://hzhst123.github.io/maoys/top93.jar",
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9oemhzdDEyMy5naXRodWIuaW8vbWFveXMvdHYvbGl2ZS50eHQ="]}]}],
 
 
 "sites":[
 {"key":"293视频","name":"🐞293视频","type":3,"api":"csp_SP293","searchable":1,"quickSearch":1,"filterable":1,"ext":""},
-//{"key":"追剧喵","name":"🐞追剧喵","type":3,"api":"csp_ZJMiao","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_SP360","name":"🎾360(SP)","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"追剧喵","name":"🐞追剧喵","type":3,"api":"csp_ZJMiao","searchable":1,"quickSearch":1,"filterable":1},
+//{"key":"csp_SP360","name":"🎾360(SP)","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_SP360","name":"🎾360(SP)","type":3,"api":"csp_SP361","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Kuaikan","name":"👀快看(SP)","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_hbys","name":"🐞简影(SP)","api":"csp_JianYing","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklEIjoyNTU5OSwiQ3JlYXRlZEF0IjoiMjAyMi0wNy0xN1QwOTo1OTowMy43MzIrMDg6MDAiLCJVcGRhdGVkQXQiOiIyMDIyLTA3LTE3VDA5OjU5OjAzLjczMiswODowMCIsIkRlbGV0ZWRBdCI6bnVsbCwidXNlcl9lbWFpbCI6ImppYW55aW5nOTk5QHFxLmNvbSIsInVzZXJfbmFtZSI6IiIsInVzZXJfcHdkIjoiIiwidXNlcl9pZCI6IjA1NzRiMzAyLTc5MzUtNGFlZi1hOTBkLTFlZjdjMTU3Y2U2MyIsInVzZXJfYW5zd2VyIjoiIiwibG9ja19pcyI6IkZhbHNlIiwiaXNfdHYiOiIiLCJpc19hZG1pbiI6IkZhbHNlIiwicmVnX3RpbWUiOm51bGwsInJlZ19rZXkiOiIiLCJ0dl90aW1lIjpudWxsLCJ0dl9rZXkiOiIifSwiZXhwIjoxNjU4NjI3OTQ2LCJpc3MiOiJBbGZyZWRvIE1lbmRvemEifQ.u2bRjVQAb1DisJYFPmkwPTi_kpaLoOR20hvZ34lVTDY"},
 {"key":"csp_Kunyu77","name":"👒七七(SP)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
@@ -20,8 +21,8 @@
 {"key": "Ikan","name": "🐞Ikan(SP)","type": 3,"api": "csp_IKan","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"csp_Cokemv","name":"🚗Cokemv(SP)","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
 //{"key":"csp_Buka","name":"📒经常卡(SP)","type":3,"api":"csp_Buka","searchable":1,"quickSearch":1,"filterable":1},
-//{"key": "csp_BBB","name":"🅱️哔哩哔哩-B站(SP)","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://hzhst123.github.io/maoys/xp/Bili.json"},
-{"key":"csp_BBB","name":"🅱️哔哩哔哩-B站(SP)","type":3,"api":"csp_BBB","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://hzhst123.github.io/maoys/xp/Bili.json"},
+{"key": "csp_BBB","name":"🅱️哔哩哔哩-B站(SP)","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://hzhst123.github.io/maoys/xp/Bili.json"},
+//{"key":"csp_BBB","name":"🅱️哔哩哔哩-B站(SP)","type":3,"api":"csp_BBB","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://hzhst123.github.io/maoys/xp/Bili.json"},
 {"key":"csp_GitCafe","name":"📜小纸条","type":3,"api":"csp_GitCafe","searchable":1,"quickSearch":1,"filterable":0,"ext":"ad3c78559a494bde814f1a6c8c40db51"},
 {"key":"csp_AliPanSou","name":"🐱喵狸盘搜(只支持搜索)","type":3,"api":"csp_AliPanSou","searchable":1,"quickSearch":1,"filterable":0,"ext":"ad3c78559a494bde814f1a6c8c40db51"},
 {"key":"push_agent","name":"🍭推送（阿里）","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext":"ad3c78559a494bde814f1a6c8c40db51"},

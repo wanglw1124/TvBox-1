@@ -1,7 +1,7 @@
 
   # TvBox 源 
 
-更新时间: 2022-07-25 05:34:10
+更新时间: 2022-07-25 12:11:36
 
 ## 优质线路
 
@@ -41,6 +41,9 @@
 
 |   名称  | 更新时间  |地址  |
 |  ----  | ----  |----  |
+| 【maoys】 bc.json | 2022-07-25 12:04:17 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoys/bc.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoys/bc.json) |
+| 【maoys】 0627.json | 2022-07-25 08:46:10 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoys/0627.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoys/0627.json) |
+| 【franksun1211】 0630.json | 2022-07-25 07:55:52 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/franksun1211/0630.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/franksun1211/0630.json) |
 | 【VIP_2】 top9.json | 2022-07-25 02:30:51 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/top9.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/top9.json) |
 | 【VIP_2】 ntest.json | 2022-07-24 00:10:59 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/ntest.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/ntest.json) |
 | 【franksun1211】 0630.json | 2022-07-23 18:16:35 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/franksun1211/0630.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/franksun1211/0630.json) |
