@@ -1,7 +1,7 @@
 
   # TvBox 源 
 
-更新时间: 2022-07-26 05:32:59
+更新时间: 2022-07-26 12:54:03
 
 ## 优质线路
 
@@ -41,6 +41,7 @@
 
 |   名称  | 更新时间  |地址  |
 |  ----  | ----  |----  |
+| 【maoys】 0627.json | 2022-07-26 08:43:04 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoys/0627.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoys/0627.json) |
 | 【Guard】 qj.json | 2022-07-25 19:50:47 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/Guard/qj.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/Guard/qj.json) |
 | 【maoys】 0627.json | 2022-07-25 18:06:58 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoys/0627.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoys/0627.json) |
 | 【maoys】 bc.json | 2022-07-25 12:04:17 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoys/bc.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoys/bc.json) |
