@@ -1,12 +1,13 @@
 
   # TvBox 源 
 
-更新时间: 2022-07-27 23:47:02
+更新时间: 2022-07-28 02:48:50
 
 ## 优质线路
 
 |   名称  | 更新时间  |地址  |
 |  ----  | ----  |----  |
+| 【VIP_2】 nju.json | 2022-07-28 00:24:07 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/nju.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/nju.json) |
 | 【VIP_2】 top9.json | 2022-07-25 02:30:51 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/top9.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/top9.json) |
 | 【VIP_2】 ntest.json | 2022-07-24 00:10:59 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/ntest.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/ntest.json) |
 | 【VIP_2】 ntest.json | 2022-07-23 10:00:44 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/ntest.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/ntest.json) |
@@ -41,6 +42,7 @@
 
 |   名称  | 更新时间  |地址  |
 |  ----  | ----  |----  |
+| 【VIP_2】 nju.json | 2022-07-28 00:24:07 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/nju.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/nju.json) |
 | 【maoTv】 比较好用的解析.json | 2022-07-27 13:13:10 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoTv/%E6%AF%94%E8%BE%83%E5%A5%BD%E7%94%A8%E7%9A%84%E8%A7%A3%E6%9E%90.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoTv/%E6%AF%94%E8%BE%83%E5%A5%BD%E7%94%A8%E7%9A%84%E8%A7%A3%E6%9E%90.json) |
 | 【maoTv】 18.json | 2022-07-27 07:58:39 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoTv/18.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoTv/18.json) |
 | 【maoys】 0627.json | 2022-07-26 08:43:04 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoys/0627.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoys/0627.json) |
