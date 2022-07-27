@@ -1,5 +1,5 @@
 { 
-  "spider":"https://github.com/heroaku/TVboxo/raw/main/Jar/91d.jar",
+  "spider":"https://github.com/heroaku/TVboxo/raw/main/Jar/91.jar",
  
   
   "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRodWIuY29tL2hlcm9ha3UvVFZib3hvL3Jhdy9tYWluL3R2L2JjLnR4dA=="]}]}],
@@ -12,8 +12,11 @@
     {"key":"csp_xpath_juhuang","name":"剧荒(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/juhuang.json"},
     {"key":"csp_xpath_kuqimv","name":"酷奇MV(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/kuqimv.json"},
     {"key":"csp_xpath_meiju662","name":"美剧天堂(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/meiju562.json"},
-  
-  {"key":"csp_xpath_lanmeiys","name":"蓝莓影视(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/lanmei.json"},
+  {"key":"csp_biubiu_蓝莓影视","name":"🥒蓝莓影视(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXB/%E8%93%9D%E8%8E%93%E5%BD%B1%E8%A7%86.json"},
+  {"key":"csp_xpath_miniku","name":"迷你库(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/miniku.json"},
+  {"key":"csp_xpath_nailuo","name":"奈落影视(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/newfii.json"}, 
+    
+    {"key":"csp_xpath_lanmeiys","name":"蓝莓影视(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/lanmei.json"},
 //
     {"key":"If101","name":"🐞If101(墙外)","type":3,"api":"csp_If101","searchable":1,"quickSearch":1,"filterable":1}, 
     {"key":"csp_xpath_独播库","name":"独播库(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/heroaku/TVboxo/raw/main/MaooXP/duboku.json"},
@@ -26,7 +29,7 @@
     {"key":"在线之家","name":"🐞在线之家","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_Tkys","name":"🐞天空影视","type": 3,"api": "csp_Tkys","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key":"csp_Nbys","name":"🐞泥巴(墙外)","type": 3,"api": "csp_Nbys","searchable": 1,"quickSearch": 1,"filterable": 1},
-
+    {"key":"Ekan_spider","name":"🐞Ekan","api":"csp_Ekan","type":3,"filterable":1,"quickSearch":1,"searchable":1,"jar":"https://github.com/heroaku/TVboxo/raw/main/Jar/91a.jar"},
     {"key": "小宝影院","name": "🐞小宝影院", "type": 3,"api": "csp_Xiaoh","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "Olevod","name": "🐞Olevod","type": 3,"api": "csp_Olevod","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "小熊", "name": "🐞小熊TV", "type": 3, "api": "csp_Xxys", "searchable": 1, "quickSearch": 1, "filterable": 1},
