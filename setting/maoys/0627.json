@@ -1,10 +1,11 @@
 
 {
-"spider":"https://hzhst123.github.io/maoys/top93.jar",
+"spider":"https://hzhst123.github.io/maoys/lgyy.jar",
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9oemhzdDEyMy5naXRodWIuaW8vbWFveXMvdHYvbGl2ZS50eHQ="]}]}],
 
 
 "sites":[
+{"key":"蓝光影院","name":"蓝光影院（SP）","type":3,"api":"csp_Lgyy","searchable":1,"quickSearch":1,"filterable":1},
 {"key": "神马影院xp","name": "神马影院xp","type": 3,"api": "csp_XPathMacFilter","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "https://hzhst123.github.io/maoys/xp/神马影院.json"},
 {"key":"293视频","name":"🐞293视频","type":3,"api":"csp_SP293","searchable":1,"quickSearch":1,"filterable":1,"ext":""},
 {"key":"追剧喵","name":"🐞追剧喵","type":3,"api":"csp_ZJMiao","searchable":1,"quickSearch":1,"filterable":1},
