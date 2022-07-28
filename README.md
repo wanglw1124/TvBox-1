@@ -1,7 +1,7 @@
 
   # TvBox 源 
 
-更新时间: 2022-07-28 14:53:42
+更新时间: 2022-07-28 17:40:38
 
 ## 优质线路
 
@@ -44,6 +44,8 @@
 
 |   名称  | 更新时间  |地址  |
 |  ----  | ----  |----  |
+| 【maoTv2】 cyys1.txt | 2022-07-28 16:53:29 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoTv2/cyys1.txt) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoTv2/cyys1.txt) |
+| 【maoTv2】 maotv3.txt | 2022-07-28 16:52:54 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/maoTv2/maotv3.txt) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/maoTv2/maotv3.txt) |
 | 【VIP_2】 nju.json | 2022-07-28 08:27:21 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/nju.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/nju.json) |
 | 【VIP_2】 nju.json | 2022-07-28 05:29:50 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/nju.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/nju.json) |
 | 【VIP_2】 nju.json | 2022-07-28 00:24:07 |[地址1](https://raw.fastgit.org/tv-player/box-source/main/setting/VIP_2/nju.json) [地址2](https://ghproxy.com/https://raw.githubusercontent.com/tv-player/box-source/main/setting/VIP_2/nju.json) |
