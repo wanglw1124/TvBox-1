@@ -9,6 +9,8 @@ const { getSources } = require("./getSources");
 
 const { createMd } = require("./createMd");
 
+const { syncSource } = require("./syncSource");
+
 const init = () => {
   const config = getConfStore(SITE_LIST) || [];
 
@@ -37,6 +39,8 @@ const run = async () => {
   await getSources();
 
   createMd();
+
+  syncSource();
 };
 
 run();

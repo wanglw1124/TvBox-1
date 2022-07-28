@@ -7,6 +7,14 @@ module.exports = {
 
   SITE_LIST: "site_list",
 
+  SYNC_FILE_LIST: "SYNC_FILE_LIST",
+
   SETTING_DIR: "./SOURCES",
   SETTING_PATH: "SOURCES/",
+
+  JAR_DIR: "./SOURCES/JAR",
+  JAR_PATH: "SOURCES/JAR/",
+
+  EXT_DIR: "./SOURCES/EXT",
+  EXT_PATH: "SOURCES/EXT/",
 };

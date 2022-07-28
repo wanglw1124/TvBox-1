@@ -1,16 +1,14 @@
 const download = require("download");
 
 const downloadFile = (url, dir, filename) => {
-  return download("https://ghproxy.com/" + url, dir, { filename });
+  return download(url, dir, { filename }).catch((err) => {
+    console.error(err);
+    return [];
+  });
 };
 
 const batchDownload = async (urls) => {
-  console.log(urls);
-  return Promise.all(urls.map((item) => downloadFile(...item))).catch((err) => {
-    console.log(err);
-
-    return [];
-  });
+  return Promise.all(urls.map((item) => downloadFile(...item)));
 };
 
 module.exports = {

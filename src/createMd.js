@@ -30,7 +30,7 @@ ${list
   `;
 }
 
-const createMd = async () => {
+const getAllSites = () => {
   let config = getConfStore(SITE_LIST) || [];
 
   let sites = config
@@ -41,6 +41,12 @@ const createMd = async () => {
     .sort((a, b) => {
       return new Date(b.time).getTime() - new Date(a.time).getTime();
     });
+
+  return sites;
+};
+
+const createMd = () => {
+  let sites = getAllSites();
 
   let text = `
   # TvBox 源 
@@ -59,5 +65,6 @@ ${mdTemplate("所有源", sites)}
 };
 
 module.exports = {
+  getAllSites,
   createMd,
 };
