@@ -14,7 +14,7 @@ dayjs.extend(timezone);
 
 function mdTemplate(title, list) {
   return `
-    ## ${title}
+## ${title}
 
 |   名称  | 更新时间  |地址  |
 |  ----  | ----  |----  |
