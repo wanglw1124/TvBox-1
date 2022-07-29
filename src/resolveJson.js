@@ -13,12 +13,16 @@ const resolveJson = (text) => {
 };
 
 const resolveFileJson = (path) => {
-  let text = fs.readFileSync(path);
+  try {
+    let text = fs.readFileSync(path);
 
-  if (text) {
-    return resolveJson(text.toString().replaceAll("#", "//"));
+    if (text) {
+      return resolveJson(text.toString().replaceAll("#", "//"));
+    }
+    return null;
+  } catch (error) {
+    return null;
   }
-  return null;
 };
 
 module.exports = {
