@@ -2,6 +2,7 @@ const { getAllSites } = require("./createMd");
 const { setConfStore, getConfStore } = require("./storage");
 
 const fs = require("fs-extra");
+var glob = require("glob");
 
 const { resolveFileJson } = require("./resolveJson");
 
@@ -11,24 +12,14 @@ const {
   EXT_DIR,
   EXT_PATH,
   SYNC_FILE_LIST,
+  SETTING_NEW_DIR,
 } = require("./constant");
 
 const { generateRandomString, generateDownloadLink } = require("./util");
 
-const download = require("download");
+const { batchDownload } = require("./download");
 
-const downloadFile = (url, dir, filename) => {
-  return download(url, dir, { filename }).catch((err) => {
-    console.error(err);
-    return [];
-  });
-};
-
-const batchDownload = async (urls) => {
-  return Promise.all(urls.map((item) => downloadFile(...item)));
-};
-
-const { find } = require("lodash");
+const { find, indexOf } = require("lodash");
 
 function createFileItem(url, ext, list) {
   let obj = find(list, (item) => item.input == encodeURI(url));
@@ -53,7 +44,25 @@ function createFileItem(url, ext, list) {
   ];
 }
 
+const judeFileDownload = () => {
+  // options is optional
+
+  let files = glob.sync(`{${JAR_DIR},${EXT_DIR}}/*`, {});
+
+  let syncFiles = getConfStore(SYNC_FILE_LIST) || [];
+
+  syncFiles.forEach((file) => {
+    if (indexOf(files, file.output) >= 0) {
+      file.download = 1;
+    }
+  });
+
+  setConfStore(SYNC_FILE_LIST, syncFiles);
+};
+
 const syncSource = async () => {
+  // 存在的file
+  judeFileDownload();
   let sites = getAllSites();
 
   for (const site of sites) {
@@ -70,9 +79,9 @@ const syncSource = async () => {
 
         if (!flag) {
           newFiles.push(file);
+        } else {
+          data.spider = url;
         }
-
-        data.spider = url;
       }
 
       if (data.sites) {
@@ -87,9 +96,9 @@ const syncSource = async () => {
 
             if (!flag) {
               newFiles.push(file);
+            } else {
+              item.ext = url;
             }
-
-            item.ext = url;
           }
         });
       }
@@ -100,18 +109,12 @@ const syncSource = async () => {
         );
       }
 
-      // console.log("sync source", newFiles);
-
       setConfStore(
         SYNC_FILE_LIST,
         (getConfStore(SYNC_FILE_LIST) || []).concat(newFiles)
       );
 
-      // break;
-
-      // console.log(data);
-
-      // fs.writeJsonSync(site.output, data);
+      fs.writeJsonSync(SETTING_NEW_DIR + "/" + site.title, data);
     } else {
       // 数据格式错误的处理
     }

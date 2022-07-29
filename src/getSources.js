@@ -32,7 +32,7 @@ const getSources = async () => {
       return res.filter((element) => {
         return (
           /.(json|txt)$/.test(element.title) &&
-          dayjs(element.time).isAfter(dayjs().subtract(15, "day")) &&
+          dayjs(element.time).isAfter(dayjs().subtract(30, "day")) &&
           element.title.indexOf("福利") == -1
         );
       });
