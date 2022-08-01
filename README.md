@@ -1,7 +1,7 @@
 
   # TvBox 配置源 
 
-更新时间: 2022-08-01 23:47:52
+更新时间: 2022-08-01 23:50:45
 
 
 
@@ -12,12 +12,12 @@
 |  96xv.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/96xv.json) |
 |  dfoz.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/dfoz.json) |
 |  picj.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/picj.json) |
-|  p7u0.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/p7u0.json) |
-|  m64r.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/m64r.json) |
+|  km3e.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/km3e.json) |
 |  0fmk.json | 2022-08-01 11:30:14 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/0fmk.json) |
 |  j4rt.json | 2022-08-01 10:44:13 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/j4rt.json) |
 |  mt9f.json | 2022-08-01 10:19:42 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/mt9f.json) |
 |  vvfw.json | 2022-08-01 08:58:19 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/vvfw.json) |
 |  7521.json | 2022-07-31 21:34:46 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/7521.json) |
+|  ju4f.json | 2022-07-31 19:45:39 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/ju4f.json) |
   
   
