@@ -1,7 +1,7 @@
 
   # TvBox 配置源 
 
-更新时间: 2022-08-01 23:29:11
+更新时间: 2022-08-01 23:34:25
 
 
 
@@ -12,7 +12,7 @@
 |  96xv.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/96xv.json) |
 |  dfoz.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/dfoz.json) |
 |  picj.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/picj.json) |
-|  wiy0.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/wiy0.json) |
+|  j1ho.json | 2022-08-01 19:27:21 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/j1ho.json) |
 |  0fmk.json | 2022-08-01 11:30:14 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/0fmk.json) |
 |  j4rt.json | 2022-08-01 10:44:13 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/j4rt.json) |
 |  mt9f.json | 2022-08-01 10:19:42 |[地址](http://rfx0owuln.hn-bkt.clouddn.com/box/mt9f.json) |
